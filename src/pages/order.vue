@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav-header></nav-header>
+    <order-header></order-header>
     <router-view></router-view>
     <nav-footer></nav-footer>
   </div>
@@ -8,13 +8,12 @@
 
 <script>
 import NavFooter from '../components/NavFooter.vue'
-import NavHeader from '../components/NavHeader.vue'
+import OrderHeader from '../components/OrderHeader.vue'
 export default {
-  // eslint-disable-next-line vue/multi-word-component-names
   name: 'order',
   components: { 
     NavFooter,
-    NavHeader
+    OrderHeader
   }
   
 }
